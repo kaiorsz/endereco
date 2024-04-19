@@ -4,6 +4,14 @@ public class Cidade {
     private String nome;
     private Estado estado;
 
+    public Estado getEstado() {
+        return estado;
+    }
+
+    public void setEstado(Estado estado) {
+        this.estado = estado;
+    }
+
     public String getNome() {
         return nome;
     }
