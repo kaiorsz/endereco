@@ -1,8 +1,16 @@
 package org.example.entidades;
 
-public class Bairro {
+public class Estado {
     private String nome;
-    private Cidade cidade;
+    private String sigla;
+
+    public String getSigla() {
+        return sigla;
+    }
+
+    public void setSigla(String sigla) {
+        this.sigla = sigla;
+    }
 
     public String getNome() {
         return nome;

@@ -1,8 +1,8 @@
 package org.example.entidades;
 
-public class Bairro {
+public class Cidade {
     private String nome;
-    private Cidade cidade;
+    private Estado estado;
 
     public String getNome() {
         return nome;
