@@ -5,6 +5,15 @@ public class Endereco {
     private String complemento;
     private String cep;
     private Bairro bairro;
+    private TipoEnderecoEnum tipoEndereco;
+
+    public TipoEnderecoEnum getTipoEndereco() {
+        return tipoEndereco;
+    }
+
+    public void setTipoEndereco(TipoEnderecoEnum tipoEndereco) {
+        this.tipoEndereco = tipoEndereco;
+    }
 
     public Integer getNumero() {
         return numero;
